@@ -1,0 +1,267 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+/*body{
+    width: 1600px;
+    height: 7335px;
+}*/
+.main {
+    background-image:url("Banner-Image.png");
+    background-repeat: no-repeat;
+    height:600px;
+    width: 1320px;
+}
+.main .nav {
+    text-align: center;
+}
+.main .nav h3 {
+    margin-top: 176px;
+}
+.main .nav h3 {
+    display: inline;
+    text-align: center;
+    font-size: 55px;
+    color: #fff;
+        font-style: normal;
+    font-weight: 400;
+    line-height:370px;
+    font-family: Merriweather;
+}
+.main .nav h1 {
+    
+    color: #FFF;
+    text-align: center;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 85px; 
+    margin-top:-120px;
+    font-family: Merriweather;
+}
+/*------------------------------ Sales section ---------------------------------------------*/
+.main-two .nav-two  {
+    display: inline;
+    text-align: center;
+}
+.new-year img {
+ margin-left: 270px;
+}
+.main-two .nav-two .sales {
+   color: red;
+}
+.main-two .nav-two h4 {
+    color: red;
+    font-family: Inter;
+ }
+ .main-two h1{
+    font-family: Inter;
+ }
+ .main-two h1{
+    font-family: Inter;
+ }
+ 
+/*---------------------------- welcome--------------------------------------------------*/
+.welcome {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.welcome h1{
+    margin-top: 155px; 
+}
+.main-three .image img {
+    margin-left:910px;
+    margin-top:-300px;
+}
+.welcome {
+    width: 500px;
+    color: white;
+}
+.main-three  {
+    background-image:url("Vectorrr.png");
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+}
+ .main-three .welcome h1 {
+    display: inline-flex; 
+    justify-content: center;
+     align-items: center;
+     gap: 10px;
+     
+}
+.main-three .nav-three h1 {
+color: #FFF;
+font-size: 64px;
+font-style: normal;
+line-height: 88px;
+font-family: Merriweather;
+}
+.main-three .nav-three p {
+    display: inline;
+    padding: 16px 32px;
+    justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+.main-three .nav-three p {
+           color: rgba(255, 255, 255, 0.80);
+           font-family: Inter;
+           font-size: 18px;
+           font-style: normal;
+           font-weight: 700px;
+           line-height: 30px;
+}
+/*----------------------------new park hotel--------------------------------------*/
+.main-four .nav-four .new-park  span {
+ text-align: center;
+ color: red;
+ display: inline;
+ 
+}
+.main-four {
+    border: 1px solid white;
+    border-radius: 1px;
+    background-color:whitesmoke;
+    padding: 60px;
+    margin: 55px 70px 87px 70px;
+    
+}
+
+.main-four .nav-four .new-park .btn-primary {
+    border-radius: 8px;
+    background: #F00;
+    color: white;
+    text-align: center;
+}
+.main-four .nav-four .new-park .btn-primary:hover {
+    border-radius: 8px;
+    background: white;
+    color: aqua;
+    text-align: center;
+    cursor: pointer;
+}
+.main-four .nav-four .new-park .btn-primary {
+
+ display: inline;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+.main-four .nav-four .new-park {
+    text-align: center;
+    font-family:Inter;
+}
+
+/*------------------holiday sales---------------------*/
+.holiday-sales{
+    text-align: center;
+}
+.holiday-sales h1 span{
+    color: #F00;
+    font-family: Merriweather;
+}
+.holiday-sales h5 p {
+    font-family: Inter;
+}
+/*---------------------- best-gift-------------------*/
+.main-six{
+    display: inline;
+}
+.main-six .image {
+    display: inline;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.main-six .image .image-one {
+    border-radius: 16px;
+    width: 424px;
+    height: 450px;
+ flex-shrink: 0;
+}
+
+.main-six h4 {
+    font-family: Inter;
+}
+.main-six h1 {
+    font-family: Merriweather;
+}
+
+.main-six p{
+    font-family:Inter;
+}
+
+
+/*----------------------------- subscribe ----------------------------------------------*/
+.main-seven {
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 1px;
+    background: rgba(255, 0, 0, 0.05);
+}
+ .main-seven {
+    border: 1px solid white;
+    border-radius: 1px;
+    background-color:whitesmoke;
+    padding: 60px;
+    margin: 55px 70px 87px 70px;
+ }
+.subscribe {
+    text-align: center;
+}
+.subscribe .text-writing {
+    font-family: Merriweather;
+}
+
+.subscribe .text-writing p {
+    font-family: Inter;
+}
+.logo input  {
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px;
+
+}
+ .logo button  {
+    
+        padding: 10px;
+        margin-left: -5px;
+        border-radius: 0px 10px 10px 0px;
+        background-color: #F00;
+        color: white;
+    }
+
+
+/*--------------------------------- footer -------------------------------------*/
+.main-eight {
+   
+    display: flex;
+    justify-content: space-around;
+
+}
+footer {
+    background: #070211;
+    padding: 50px;
+}
+.main-eight .address {
+    color: #FFF;
+    font-family: Inter;
+    
+}
+.main-eight .communication-sector a {
+    text-decoration: none;
+}
+
+.footer-img {
+    text-align: center;
+
+}
+.footer-img img {
+    margin-right: 10px;
+}
+ .last  {
+    color: #fff;
+    display:flex;
+    justify-content: space-between;
+}
